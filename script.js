@@ -83,14 +83,14 @@ const textNodes = [{
         text: 'What is the first step in creating and scheduling a Blogger post?.',
         image: 'https://a.storyblok.com/f/112136/612x192/27f70ae76c/picture1.png',
         options: [{
-                text: 'Log in to Blogger.',
+                text: 'Log in to Blogger',
                 setState: {
                     id1Option1: true
                 },
                 nextText: 2
             },
             {
-                text: 'Click on date and time.',
+                text: 'Click on date and time',
                 setState: {
                     id1Option2: true
                 },
@@ -112,7 +112,7 @@ const textNodes = [{
                 nextText: 3
             },
             {
-                text: 'I want to edit a current post so I click on an existing post.',
+                text: 'I want to edit a current post so I click on an existing post',
                 requiredState: (currentState) => currentState.id1Option1,
                 setState: {
                     id1Option1: false,
@@ -136,7 +136,7 @@ const textNodes = [{
         text: 'Great! Where to next?',
         image: 'https://a.storyblok.com/f/112136/609x275/3fd20bb67d/picture3.png',
         options: [{
-                text: 'Add a title, text and images to your post.',
+                text: 'Add a title, text and images to your post',
                 nextText: 6
             },
             {
@@ -196,7 +196,7 @@ const textNodes = [{
         text: 'Incorrect! Where do you pick the date and time?',
         image: '',
         options: [{
-            text: 'Start again!',
+            text: 'Start again',
             nextText: -1
         }]
     },
