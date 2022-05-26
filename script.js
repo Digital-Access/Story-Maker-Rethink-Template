@@ -148,7 +148,7 @@ const textNodes = [{
     {
         id: 4,
         text: 'Incorrect! How would Blogger know which post you are scheduling for?',
-        image: '',
+        image: 'https://a.storyblok.com/f/112136/1842x2109/b9a1998e72/wrong.png',
         options: [{
             text: 'Try again',
             nextText: -1
@@ -157,7 +157,7 @@ const textNodes = [{
     {
         id: 5,
         text: 'Incorrect! There is no content in your post.',
-        image: '',
+        image: 'https://a.storyblok.com/f/112136/1842x2109/b9a1998e72/wrong.png',
         options: [{
             text: 'Start Again',
             nextText: -1
@@ -194,7 +194,7 @@ const textNodes = [{
     {
         id: 8,
         text: 'Incorrect! Where do you pick the date and time?',
-        image: '',
+        image: 'https://a.storyblok.com/f/112136/1842x2109/b9a1998e72/wrong.png',
         options: [{
             text: 'Start again!',
             nextText: -1
@@ -203,7 +203,7 @@ const textNodes = [{
     {
         id: 9,
         text: 'So close! But you missed the date!',
-        image: '',
+        image: 'https://a.storyblok.com/f/112136/1842x2109/b9a1998e72/wrong.png',
         options: [{
             text: 'Try again',
             nextText: -1
@@ -212,7 +212,7 @@ const textNodes = [{
     {
         id: 10,
         text: 'Correct you did it!',
-        image: '',
+        image: 'https://a.storyblok.com/f/112136/3027x1829/21e01487e4/correct.png',
         options: [{
             text: 'Finish',
             nextText: 'endGame'
@@ -235,7 +235,7 @@ const textNodes = [{
     {
         id: 12,
         text: 'Incorrect! Cannot edit settings in the preview section',
-        image: "",
+        image: "https://a.storyblok.com/f/112136/1842x2109/b9a1998e72/wrong.png",
         options: [{
             text: 'try again',
             nextText: -1
@@ -258,7 +258,7 @@ const textNodes = [{
     {
         id: 14,
         text: 'Correct! You did it!',
-        image: "",
+        image: "https://a.storyblok.com/f/112136/3027x1829/21e01487e4/correct.png",
         options: [{
             text: 'Finish',
             nextText: 'endGame'
@@ -267,7 +267,7 @@ const textNodes = [{
     {
         id: 15,
         text: 'So close! But you missed the date!',
-        image: "",
+        image: "https://a.storyblok.com/f/112136/1842x2109/b9a1998e72/wrong.png",
         options: [{
             text: 'Try again',
             nextText: -1
